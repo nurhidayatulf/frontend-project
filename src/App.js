@@ -1,12 +1,12 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Hero from './Landing/HeroImage';
-
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 export default function App() {
 	return (
 		<div>
-			<Hero />
+			<Header />
+			<Footer />
 		</div>
 	);
 }
