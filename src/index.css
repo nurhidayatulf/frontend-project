@@ -9,3 +9,116 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.exp {
+  background-color: #FF6A28;
+}
+
+.join {
+  height: 2rem;
+  display: flex;
+  font-size: small;
+  text-align: center;
+}
+
+.arrow {
+  background-color: rgba(255, 255, 255, 0.25);
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 3px;
+  margin-right: -9px;
+  margin-top: -3px;
+}
+
+.arrow2 {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 3px;
+  margin-right: -9px;
+  margin-top: -3px;
+}
+
+.access {
+  width: 2.5rem;
+}
+
+.access-text {
+  font-size: small;
+  font-weight: 900;  
+}
+
+.access-desc {
+  font-size: small;
+}
+
+.roadmap {
+  border-radius: 10px;
+  background-color: rgba(230, 233, 240, 1);
+}
+
+.roadmap img {
+  width: 2.5rem;
+  background-color: white;
+  border-radius: 13px;
+  padding: 7px;
+}
+
+.roadmap p {
+  font-size: small;
+}
+
+.teacher {
+  margin-top: 8rem;
+  border-radius: 10px;
+}
+
+.testy {
+  font-size: small;
+}
+
+.testy-name {
+  color: rgba(255, 106, 40, 1);
+  margin-left: 5rem;
+  font-size: small;
+}
+
+.subscribe {
+  background: #FF6A28;
+  border-radius: 5px;
+  font-size: 11px;
+}
+
+.youtube {
+  border-radius: 10px;
+}
+
+.kelas {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #DFE9F3 0%, #FFFFFF 100%);
+}
+
+.logo-lesson {
+  width: 2.5rem;
+}
+
+.badge {
+  font-size: 9px;
+  margin-left: 2.6rem;
+}
+
+strike {
+  color: rgba(164, 164, 164, 1);
+  font-size: 10px;
+}
+
+.price {
+  font-size: 15px;
+}
+
+.course-desc {
+  font-size: 12px;
+}
+
+.star {
+  margin-left: -7px;
+}

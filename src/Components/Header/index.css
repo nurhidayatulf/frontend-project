@@ -4,16 +4,10 @@ a {
 
 .home {
     background: rgba(255, 255, 255, 0.171);
-    border: none;
     border-radius: 5px;
-    color: white;
-    font-weight: 600;
 }
 
 .login {
     background: #FF6A28;
-    border: none;
     border-radius: 5px;
-    color: white;
-    font-weight: 600;
 }
