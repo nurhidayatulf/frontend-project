@@ -37,7 +37,7 @@ export default function Kelas() {
             <div class="mt-5">
                 <Container>
                     <Card bg="primary text-white">
-                        <Card.Header className='fs-5 fw-bolder' style={{ background: 'rgb(0, 0, 255)' }} >
+                        <Card.Header className='fs-5 fw-bolder' style={{ background: 'rgb(2, 40, 90, 0.527)' }} >
                             Description
                         </Card.Header>
                         <Card.Body>
@@ -50,11 +50,15 @@ export default function Kelas() {
                 <Container>
                     <p class="text-primary fs-5 fw-bolder mb-4">What You’ll Learn</p>
                     <Row>
-                        <Col>
-                            <div class="advantage fw-bold"><BsFillCheckCircleFill color="rgba(252, 188, 42, 1)" className='me-3 ms-3 mt-3'/><span class="pt-3">Applied Psychology in Design</span></div>
+                        <Col sm={4} >
+                            <div class="advantage fw-bold d-flex align-items-center mb-3"><BsFillCheckCircleFill color="rgba(252, 188, 42, 1)" className='me-3 ms-3'/>Applied Psychology in Design</div>
+                            <div class="advantage fw-bold d-flex align-items-center mb-3"><BsFillCheckCircleFill color="rgba(252, 188, 42, 1)" className='me-3 ms-3'/>Applied Psychology in Design</div>
+                            <div class="advantage fw-bold d-flex align-items-center mb-3"><BsFillCheckCircleFill color="rgba(252, 188, 42, 1)" className='me-3 ms-3'/>Applied Psychology in Design</div>
                         </Col>
-                        <Col>
-                            Tes
+                        <Col sm={4}>
+                            <div class="advantage fw-bold d-flex align-items-center mb-3"><BsFillCheckCircleFill color="rgba(252, 188, 42, 1)" className='me-3 ms-3'/>Applied Psychology in Design</div>
+                            <div class="advantage fw-bold d-flex align-items-center mb-3"><BsFillCheckCircleFill color="rgba(252, 188, 42, 1)" className='me-3 ms-3'/>Applied Psychology in Design</div>
+                            <div class="advantage fw-bold d-flex align-items-center mb-3"><BsFillCheckCircleFill color="rgba(252, 188, 42, 1)" className='me-3 ms-3'/>Applied Psychology in Design</div>
                         </Col>
                     </Row>
                 </Container>

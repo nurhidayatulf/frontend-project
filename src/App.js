@@ -107,7 +107,7 @@ export default function App() {
 						<Button variant="outline-light" size="sm" className="fw-bold text-secondary" style={{ background: 'rgba(230, 233, 240, 1)' }} >Animation</Button>
 						<Button variant="outline-light" size="sm" className="fw-bold text-secondary" style={{ background: 'rgba(230, 233, 240, 1)' }} >Programming</Button>
 						<Button variant="outline-light" size="sm" className="fw-bold text-secondary" style={{ background: 'rgba(230, 233, 240, 1)' }} >Marketing</Button>
-						<Button variant="outline-primary" size="sm" className="fw-bold text-primary">See all</Button>
+						<Button variant="outline-primary" size="sm" className="fw-bold text-primary see-all">See all</Button>
 					</div>
 					<div class="d-flex gap-5">
 						{data.map(props => {
