@@ -4,3 +4,63 @@
     height: 2rem;
     width: 17rem;
 }
+
+.mentor-name {
+    font-size: small;
+    font-weight: 800;
+}
+
+.mentor-status {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.fb {
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 7px;
+}
+
+.linke {
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 5px;
+}
+
+.hero2 {
+    object-fit: cover;
+    height: 500px;
+    width: 1350px
+}
+
+.transparan {
+    position: absolute;
+    height: 500px;
+    width: 42rem;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7px);
+}
+
+.hero-cover {
+    position: relative;
+}
+
+.star-margin {
+    margin-left: 6rem;
+}
+
+.star2 {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.create-class {
+    height: 2rem;
+    display: flex;
+    font-size: small;
+    text-align: center;
+    margin-left: 6rem;
+}
