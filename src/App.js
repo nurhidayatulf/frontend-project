@@ -112,36 +112,38 @@ export default function App() {
 					<div class="d-flex gap-5">
 						{data.map(props => {
 							return (
-								<Card style={{ width: '16rem' }} className="mt-5 kelas">
-									<Card.Body>
-										<Row>
-											<Col sm={3}>
-												<img src={props.logo} alt="figma" class="logo-lesson" />
-											</Col>
-											<Col sm={9}>
-												<div class="d-flex">
-													<Badge pill bg="danger" className="badge me-2">50% OFF</Badge>
-													<strike>Rp 6.000.000</strike>
-												</div>
-												<p class="price fw-bolder mt-1 ms-5">Rp 3.000.000</p>
-											</Col>
-										</Row>
-										<Card.Title className="text-primary fw-bolder fs-6">{props.title}</Card.Title>
-										<Card.Text className="text-secondary fw-bolder course-desc">{props.desc}</Card.Text>
-										<Row>
-											<Col sm={2}>
-												<img src={props.pic} alt="mentor" class="logo-lesson" />
-											</Col>
-											<Col sm={7}>
-												<p class="course-desc fw-bolder ms-3 mt-2">{props.mentor}</p>
-											</Col>
-											<Col sm={3} className="me-0">
-												<BsFillStarFill className='star text-warning'/>
-												<span class="course-desc fw-bolder text-secondary ms-2">4.8</span>
-											</Col>
-										</Row>
-									</Card.Body>
-								</Card>
+								<a href='/class'>
+									<Card style={{ width: '16rem' }} className="mt-5 kelas">
+										<Card.Body>
+											<Row>
+												<Col sm={3}>
+													<img src={props.logo} alt="figma" class="logo-lesson" />
+												</Col>
+												<Col sm={9}>
+													<div class="d-flex">
+														<Badge pill bg="danger" className="badge me-2">50% OFF</Badge>
+														<strike>Rp 6.000.000</strike>
+													</div>
+													<p class="price fw-bolder mt-1 ms-5">Rp 3.000.000</p>
+												</Col>
+											</Row>
+											<Card.Title className="text-primary fw-bolder fs-6">{props.title}</Card.Title>
+											<Card.Text className="text-secondary fw-bolder course-desc">{props.desc}</Card.Text>
+											<Row>
+												<Col sm={2}>
+													<img src={props.pic} alt="mentor" class="logo-lesson" />
+												</Col>
+												<Col sm={7}>
+													<p class="course-desc fw-bolder ms-3 mt-2">{props.mentor}</p>
+												</Col>
+												<Col sm={3} className="me-0">
+													<BsFillStarFill className='star text-warning'/>
+													<span class="course-desc fw-bolder text-secondary ms-2">4.8</span>
+												</Col>
+											</Row>
+										</Card.Body>
+									</Card>
+								</a>
 							)
 						})}
 					</div>
