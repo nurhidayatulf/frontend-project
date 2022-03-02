@@ -1,0 +1,47 @@
+.link {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.Dashboard {
+    color: #929EAD;
+    font-family: 'Monsterrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.Dashboard:focus {
+    color: #04756F;
+}
+
+.Dashboard:hover {
+    color: #04756F;
+}
+
+.addClass {
+    color: #929EAD;
+    font-family: 'Monsterrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.addClass:focus {
+    color: #04756F;
+}
+
+.addClass:hover {
+    color: #04756F;
+}
+
+.title {
+    font-family: 'Monsterrat', sans-serif;
+    color: #04756F;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 53px;
+    margin-left: 42px;
+    margin-bottom: 40px;
+}
